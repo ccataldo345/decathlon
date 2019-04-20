@@ -1,0 +1,47 @@
+{
+	"results":
+		[
+			{ 
+				"Rank": "1", 
+				"Country": "AUS", 
+				"Athlete": "Cedric Dubler", 
+				"Result": "5.00",  
+				"Points": "910"
+			},
+			{ 
+				"Rank": "2", 
+				"Country": "CAN", 
+				"Athlete": "Pierce Lepage", 
+				"Result": "4.90",  
+				"Points": "880"
+			},
+			{ 
+				"Rank": "3", 
+				"Country": "ENG", 
+				"Athlete": "John Lane", 
+				"Result": "4.80",  
+				"Points": "849"
+			},
+			{ 
+				"Rank": "4", 
+				"Country": "WAL", 
+				"Athlete": "Ben Gregory", 
+				"Result": "4.80",  
+				"Points": "849"
+			},
+			{ 
+				"Rank": "5", 
+				"Country": "GRN", 
+				"Athlete": "Lindon Victor", 
+				"Result": "790",  
+				"Points": "666"
+			},
+			{ 
+				"Rank": "6", 
+				"Country": "AUS", 
+				"Athlete": "Kyle Cranston", 
+				"Result": "4.40",  
+				"Points": "731"
+			}				
+		]
+}
