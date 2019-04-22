@@ -11,8 +11,8 @@ include "header.php";
         <th onclick="sortTable(1)">Country</th>
         <th onclick="sortTable(2)">Athlete</th>
         <th onclick="sortTable(3)">Time</th>
-        <th onclick="sortTable(3)">Result</th>
-        <th onclick="sortTable(4)">Points</th>
+        <th onclick="sortTable(4)">Result</th>
+        <th onclick="sortTable(5)">Points</th>
       </tr>
     </thead>
     <tbody>
