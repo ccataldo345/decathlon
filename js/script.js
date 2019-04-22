@@ -1,22 +1,24 @@
-var textArea = document.getElementById('text-area'),
-    dropMenu = document.getElementById('drop-menu');
-    
+
+var textArea = document.getElementById('text-area');
 
 $(function eventsList() {
-    
+ 
     var parseData = [];
-    var result = '<a href="result10.php">';
+    var resPartA = '<a href="result';
+    var resPartB = '.php">';
+    var evId;
+    console.log(evId);
     
     $.getJSON('json/events.json', function(parseData) {
        $.each(parseData.events, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.id + "</td>" + "<td>" + result + f.name + "</a>" + "</td>" + "</tr>";
-           $(tblRow).appendTo("#events tbody");
+		  evId = f.id;
+		  var tblRow = "<tr>" + "<td>" + f.id + "</td>" + "<td>" + resPartA + f.id + resPartB + f.name + "</a>" + "</td>" + "</tr>";
+          $(tblRow).appendTo("#events tbody");
+          
         });
 
-    });
+    });  
 
 });
-
-
 
 textArea.innerText += eventsList;

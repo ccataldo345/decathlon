@@ -2,6 +2,13 @@ th {
 cursor: pointer; 
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+  line-height: 150%;
+  margin-left: 10px;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;

@@ -18,7 +18,7 @@
   
   <div>
     <ul class="topnav">
-      <li><h3 class="active"><b>DECATHLON</b></h3></li>
+      <li><a class="active"><b>DECATHLON</b></a></li>
       <li class="right"><a href="./">Home</a></li>
     </ul>
   </div>

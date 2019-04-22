@@ -2,7 +2,7 @@
 include "header.php";
 ?>
 
-  <h2>1500m</h2>
+  <h2>Pole Vault</h2>
   
   <table id="decathlon" class="table table-hover">
     <thead>
@@ -10,6 +10,7 @@ include "header.php";
         <th onclick="sortTable(0)">Rank</th>
         <th onclick="sortTable(1)">Country</th>
         <th onclick="sortTable(2)">Athlete</th>
+        <th onclick="sortTable(3)">Time</th>
         <th onclick="sortTable(3)">Result</th>
         <th onclick="sortTable(4)">Points</th>
       </tr>
@@ -24,6 +25,7 @@ include "header.php";
 </div>
 
 <script src="js/parseData.js"></script>
+<script src="js/script.js"></script>
 <script src="js/sortTable.js"></script>
 
 </body>

@@ -13,12 +13,10 @@ include "header.php";
 
     </tbody>
   </table>
-
-
   
 <p id="text-area"></p>
 
-<br>
+<a>* Click on event name to see the results (available data: Pole Vault and 1500m)</a>
 
 </div>
 
